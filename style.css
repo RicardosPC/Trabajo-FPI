@@ -1,0 +1,16 @@
+
+.Contacts {
+    display: flex;
+    padding: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Icon-Email, .Icon-Facebook, .Icon-Instagram, .Icon-WhatsApp, .Icon-Phone {
+    list-style-type: none;
+    margin: 10px;
+}
+.Link-Email, .Link-Facebook, .Link-Instagram, .Link-WhatsApp, .Link-Phone{
+    color: black;
+    font-family: sans-serif;
+}
