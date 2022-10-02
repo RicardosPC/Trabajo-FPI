@@ -9,7 +9,11 @@
     list-style-type: none;
     margin: 10px;
 }
-.Link-Email, .Link-Facebook, .Link-Instagram, .Link-WhatsApp, .Link-Phone{
+.Link-Email, .Link-Facebook, .Link-Instagram, .Link-WhatsApp, .Link-Phone, .Link-Buy{
     color: black;
     font-family: sans-serif;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
 }
