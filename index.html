@@ -13,7 +13,8 @@
       <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <section class="Contacts">
+    <section class="Contacts ">
+
       <ul class="Icon-Email">
         <a href="»mailto:EsTuPasteleria@nomelopuedo.com»" target="_blank" class="Link-Email">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
@@ -51,68 +52,66 @@
         </a>
       </ul>
     </section>
-    <header class="NavBar">
-      <nav class="navbar" style="background-color: #cfffca;">
-        <div class="container">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="/">
-              <img src="cake_lemon.png" alt="pastel de limón" style="width: 5%">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sucursales</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-sm" style="background-color: #cfffca;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="cake_lemon.png" alt="pastel de limón" style="width: 100%;">
+        </a>
+        <a class="btn btn-outline-success bg-body" href="/" role="button">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-      <div class="container">
-        <div class="row">
-          <div class="col col-4 first">
-            <div class="form-group">
-              <fieldset>
-                <legend>Porciones</legend>
-                <input type="checkbox" tabindex="20"name="opcion1"> 6 porciones<br>
-                <input type='checkbox' tabindex='21'name="opcion2"> 15 porciones<br>
-                <input type='checkbox' tabindex='22'name="opcion3"> 20 porciones<br>
-                <input type='checkbox' tabindex='22'name="opcion4"> 25 porciones<br>
-                <input type='checkbox' tabindex='22'name="opcion5"> 50 porciones<br>
-              </fieldset>
-              <fieldset>
-                <legend>Ocasion</legend>
-                <input type="checkbox" tabindex="20"name="opcion1"> Cumpleaños<br>
-                <input type='checkbox' tabindex='21'name="opcion2"> Boda<br>
-                <input type='checkbox' tabindex='22'name="opcion3"> Quinceaños<br>
-                <input type='checkbox' tabindex='22'name="opcion4"> Graduación<br>
-                <input type='checkbox' tabindex='22'name="opcion5"> Baby Shower<br>
-              </fieldset>
-              <fieldset>
-                <legend>Precio</legend>
-                <input type="checkbox" tabindex="20"name="opcion1"> $6<br>
-                <input type='checkbox' tabindex='21'name="opcion2"> $15<br>
-                <input type='checkbox' tabindex='22'name="opcion3"> $25<br>
-                <input type='checkbox' tabindex='22'name="opcion4"> $50<br>
-                <input type='checkbox' tabindex='22'name="opcion5"> $100<br>
-              </fieldset>
-            </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col col-4 first">
+          <div class="form-group">
+            <fieldset>
+              <legend>Porciones</legend>
+              <input type="checkbox" tabindex="20"name="opcion1"> 6 porciones<br>
+              <input type='checkbox' tabindex='21'name="opcion2"> 15 porciones<br>
+              <input type='checkbox' tabindex='22'name="opcion3"> 20 porciones<br>
+              <input type='checkbox' tabindex='22'name="opcion4"> 25 porciones<br>
+              <input type='checkbox' tabindex='22'name="opcion5"> 50 porciones<br>
+            </fieldset>
+            <fieldset>
+              <legend>Ocasion</legend>
+              <input type="checkbox" tabindex="20"name="opcion1"> Cumpleaños<br>
+              <input type='checkbox' tabindex='21'name="opcion2"> Boda<br>
+              <input type='checkbox' tabindex='22'name="opcion3"> Quinceaños<br>
+              <input type='checkbox' tabindex='22'name="opcion4"> Graduación<br>
+              <input type='checkbox' tabindex='22'name="opcion5"> Baby Shower<br>
+            </fieldset>
+            <fieldset>
+              <legend>Precio</legend>
+              <input type="checkbox" tabindex="20"name="opcion1"> $6<br>
+              <input type='checkbox' tabindex='21'name="opcion2"> $15<br>
+              <input type='checkbox' tabindex='22'name="opcion3"> $25<br>
+              <input type='checkbox' tabindex='22'name="opcion4"> $50<br>
+              <input type='checkbox' tabindex='22'name="opcion5"> $100<br>
+            </fieldset>
           </div>
         </div>
       </div>
-    </header>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
@@ -120,3 +119,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
   </body>
+</html>
