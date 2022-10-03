@@ -22,9 +22,3 @@ fieldset {
     padding: 0 10px 10px 10px;
     border-bottom: none;
 }
-
-legend{
-    width: auto !important;
-    border: none;
-    font-size: 14px;
-}
