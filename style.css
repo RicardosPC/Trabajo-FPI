@@ -17,3 +17,14 @@
     display: flex;
     justify-content: space-between;
 }
+fieldset {
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+}
+
+legend{
+    width: auto !important;
+    border: none;
+    font-size: 14px;
+}
